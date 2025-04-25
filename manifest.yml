@@ -1,0 +1,23 @@
+lzc-sdk-version: "0.1"
+name: Kindly RSS
+package: cloud.lazycat.app.kindly-rss
+version: 0.4.0
+description: 一个专为电子墨水设备设计的自托管源聚合器（支持 RSS 和 Atom 源）
+homepage: https://github.com/nicoan/kindly-rss-reader
+author: nicoan
+application:
+  subdomain: kindly-rss
+  background_task: true
+  multi_instance: false
+  gpu_accel: false
+  kvm_accel: false
+  usb_accel: false
+  public_path:
+    - /
+  routes:
+    - /=http://kindly-rss:3000/
+services:
+  kindly-rss:
+    image: docker.1ms.run/nicoan/kindly-rss-reader:0.4.0
+    binds:
+      - /lzcapp/var/data:/home/data
