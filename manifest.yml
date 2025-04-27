@@ -18,6 +18,8 @@ application:
     - /=http://kindly-rss:3000/
 services:
   kindly-rss:
+    environment:
+      - DATA_PATH=/home/data
     image: docker.1ms.run/nicoan/kindly-rss-reader:0.4.0
     binds:
       - /lzcapp/var/data:/home/data
