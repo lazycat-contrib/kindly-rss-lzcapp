@@ -1,0 +1,16 @@
+package: cloud.lazycat.app.kindly-rss
+version: 0.4.0
+name: Kindly RSS
+description: "一个专为电子墨水设备设计的自托管 RSS 和 Atom 源聚合器"
+min_os_version: 1.5.0
+homepage: https://github.com/nicoan/kindly-rss-reader
+author: nicoan
+
+locales:
+  zh:
+    name: "Kindly RSS"
+    description: "专为电子墨水设备设计的自托管 RSS 和 Atom 阅读器"
+  en:
+    name: "Kindly RSS"
+    description: "A self-hosted RSS and Atom reader designed for e-ink devices"
+
