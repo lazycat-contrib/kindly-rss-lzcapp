@@ -13,7 +13,7 @@ services:
   kindly-rss:
     environment:
       - DATA_PATH=/home/data
-    # upstream: nicoan/kindly-rss-reader:0.5.0
-    image: registry.lazycat.cloud/czyt/nicoan/kindly-rss-reader:3d1f5bc170d3ddf6
+    # upstream: nicoan/kindly-rss-reader:0.6.0
+    image: registry.lazycat.cloud/czyt/nicoan/kindly-rss-reader:ec1a4cb168a6f3bc
     binds:
       - /lzcapp/var/data:/home/data
