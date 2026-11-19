@@ -1,6 +1,6 @@
 package: cloud.lazycat.app.kindly-rss
 license: AGPL-3.0
-version: 0.6.0
+version: 0.7.0
 name: Kindly RSS
 description: "一个专为电子墨水设备设计的自托管 RSS 和 Atom 源聚合器"
 min_os_version: 1.5.0
